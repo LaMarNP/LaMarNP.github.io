@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shape Calculations</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src ="script.js"></script>
+</head>
+<body>
+<h1>Shape Calculations</h1>
+<div id="perimeterBlock"></div>
+    <img class="images" src="RectangleArea.jpg"
+         alt="A rectangle with variables for the side measurements" width = "300">
+    <p> P = 2(X + Y) </p>
+    <p>Perimeter: <span id='perimeterResult'></span></p>
+    <button onclick = 'perimeter()'>Calculate</button>
+    <p><label for='plength'>Length:</label><input type='text' id='plength'></p>
+    <p><label for='pwidth'>Width:</label><input type='text' id='pwidth'></p>
+
+
+
+<img class="images"  src="RectangleArea.jpg"
+     alt="A rectangle with variables for the side measurements" width = "300">
+<p>A = W * L</p>
+<p>Area: <span id='areaResult'></span></p>
+ <button onclick = 'area()'>Calculate</button>
+<p><label for='alength'>Length:</label><input type='text' id='alength'></p>
+<p><label for='awidth'>Width:</label><input type='text' id='awidth'></p>
+
+<img class="images" src="RectangleVolume.jpg"
+     alt="A rectangular prism with variables for the side measurements" width = "300">
+<p>V = L * W * H</p>
+<p>Volume: <span id='volumeResult'></span></p>
+ <button onclick = 'volume()'>Calculate</button>
+<p><label for='vlength'>Length:</label><input type='text' id='vlength'></p>
+<p><label for='vwidth'>Width:</label><input type='text' id='vwidth'></p>
+<p><label for='vheight'>Height:</label><input type='text' id='vheight'></p>
+
+</body>
+</html>

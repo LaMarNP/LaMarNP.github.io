@@ -3,12 +3,13 @@ Set up SSh Key
 ssh-keygen -t ed25519 -C "noahperkins@mail.weber.edu"
 
 view public key:
-cat ~/.ssh/id_ed25519.pub
 it
 how to change directory
 cd directory_name
 
-C:\Users\perki\OneDrive\Desktop\Weber state Fall 2024\WEB 1430\MyPortfolio
+"C:\Users\perki\OneDrive\Desktop\Weber state Fall 2024\WEB 1430\PortableGit\LaMarNP.github.io"
+
+https://lamarnp.github.io/
 
 
 push changes

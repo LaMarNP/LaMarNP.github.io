@@ -9,10 +9,10 @@ cd directory_name
 
 "C:\Users\perki\OneDrive\Desktop\Weber state Fall 2024\WEB 1430\PortableGit\LaMarNP.github.io"
 
-https://lamarnp.github.io/
+https://lamarnp.github.io/ 
 
 
-push changes
+push changesS
 git add -A
 git commit -m "some message"
 git push origin main

@@ -39,8 +39,35 @@
   <h2>My Puzzle</h2>
   <button onclick ="location.href='MyPuzzle/myPuzzle.html'">My Puzzle</button>
 
+  <h3>Commit submission</h3>
+  <form id="commentForm">
+    <div class="Comments">
+      <div class="leftColumn">
+    <input type="text" id="name" pattern="[A-Za-z\s]{5,20}"
+           title="Please only use letters" placeholder="Please enter your Name">
+    <input type="tel" id="number" pattern="\d{3}-\d{3}-\d{4}"
+           title="Please enter in the format xxx-xxx-xxxx" placeholder="Please enter your phone number">
+    <input type="email" id="email" placeholder="Please enter your email">
+    <input type="text" id="username" pattern="[a-zA-Z0-9_]{4,12}" placeholder="Please enter your username"
+            title="Please don't use any special characters or spaces. Insure it is between 4 and 12 characters">
+    <input type="password" id="password" pattern="[a-zA-Z0-9!@#$%]{8,}" placeholder="Please enter your password"
+            title="Please use only Upper/lower case, numbers, and special characters(! @ # $ %)">
+      </div>
+      <div class="rightColumn">
+      <label for="comments">Your Comments:</label>
+      <textarea id="comments" name="comments" rows="5" cols="30"
+            placeholder="Write your comments here..." required></textarea>
+    <button id="submitButton" type="submit" >Submit</button>
+      </div>
+    </div>
+  </form>
+  <p id ="uservalidation"></p>
+  <p id="validation"></p>
+
+
+
   <h3>Settings</h3>
-  <label for="default">Default</label>
+  <label for="default" id="CommentSubmission">Default</label>
   <input name="colorType" type="radio" id="default" value="default" onclick="defaultSetting()">
   <label for="dark">Dark</label>
   <input name="colorType" type="radio" id="dark" value="dark" onclick="dark()">

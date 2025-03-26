@@ -31,3 +31,16 @@ h2{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+.Comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftColumn,
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 45%;
+}

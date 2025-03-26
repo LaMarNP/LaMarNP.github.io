@@ -138,6 +138,8 @@ function sanitization(event) {
         let sanitizedValue = escapeHTML(input.value);
         inputs.push(sanitizedValue);
     });
+    form.reset();
+    alert("Comment Sent Successfully");
 }
 });
 

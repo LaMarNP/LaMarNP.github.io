@@ -44,3 +44,8 @@ h2{
   gap: 10px;
   width: 45%;
 }
+
+.toDoList{
+    display: flex;
+    flex-direction: column;
+}
